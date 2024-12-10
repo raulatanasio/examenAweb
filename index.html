@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Examen AWeb</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/jpg" />
+  </head>
+  <body>
+    <div class="container">
+      <!--fila para el menu-->
+      <div class="row mt-1 mb-1">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Mundos Laborales</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >INICIO</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">METAVERSOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">REALIDAD VIRTUAL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">REALIDAD AUMENTADA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">LA INTERNET DE LAS COSAS</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!--fila para el banner-->
+      <div class="row mb-1">
+        <div class="col-12">
+          <img class="img-fluid" src="img/banner.jpg" alt="" />
+        </div>
+      </div>
+      <!--fila para: los metaversos, realidad virtual y formularios-->
+      <div class="row mb-1">
+        <!--bloque de metaversos, realidad y formulario de contacto-->
+        <div class="col-12 col-md-8 mb-1">
+          <!--alert-->
+          <div class="alert alert-light text-center" role="alert">
+            LOS METAVERSOS
+          </div>
+          <!--fila de metaverso-->
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <img class="img-fluid" src="img/metaverso.jpg" alt="" />
+            </div>
+            <div class="col-12 col-md-8">
+              <div class="alert alert-light" role="alert">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reprehenderit repellendus officia quod laborum, ut consequuntur
+                nulla dicta eos deleniti explicabo illum, odit labore corrupti
+                repudiandae doloremque unde voluptatibus non quaerat eveniet
+                facilis laboriosam? A praesentium impedit explicabo, vel
+                deleniti veritatis. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Reiciendis assumenda id dicta voluptates neque
+                eligendi ut maxime debitis ea quam!
+              </div>
+            </div>
+          </div>
+          <!--fila de los texto de realidad aumentada y realidad virtual-->
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="alert alert-primary text-center" role="alert">
+                REALIDAD VIRTUAL
+              </div>
+              <div class="alert alert-light" role="alert">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat minima accusamus culpa doloremque repudiandae et
+                quisquam eligendi dolore ipsa quas nulla iure placeat blanditiis
+                laborum, assumenda enim officiis reprehenderit magni?
+              </div>
+              <button type="button" class="btn btn-outline-success w-100 mb-1">
+                LEER MÁS...
+              </button>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="alert alert-primary text-center" role="alert">
+                REALIDAD AUMENTADA
+              </div>
+              <div class="alert alert-light" role="alert">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat minima accusamus culpa doloremque repudiandae et
+                quisquam eligendi dolore ipsa quas nulla iure placeat blanditiis
+                laborum, assumenda enim officiis reprehenderit magni?
+              </div>
+              <button type="button" class="btn btn-outline-success w-100 mb-1">
+                LEER MÁS...
+              </button>
+            </div>
+          </div>
+          <!--fila del formulario de contacto-->
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="formulario"
+                style="background-color: rgb(243, 239, 239); padding: 10px"
+              >
+                <div class="alert alert-secondary text-center" role="alert">
+                  FORMULARIO DE CONTACTO
+                </div>
+                <form action="procesar.php" method="post">
+                  <input
+                    type="email"
+                    class="form-control mb-2"
+                    name="correo"
+                    placeholder="ESCRIBA SU CORREO:"
+                  />
+                  <textarea
+                    class="form-control mb-2"
+                    placeholder="ESCRIBA EL COMENTARIO AQUÍ:"
+                    name="comentarios"
+                    style="resize: none"
+                    rows="8"
+                  ></textarea>
+                  <div
+                    class="botonera"
+                    style="display: flex; justify-content: flex-end"
+                  >
+                    <button type="submit" class="btn btn-primary mb-1">
+                      ENVIAR
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Formulario Login de la derecha-->
+        <div class="col-12 col-md-4 mb-1">
+          <!--imagen-->
+          <div
+            class="imagen mb-1"
+            style="border: 1px solid gainsboro; padding: 5px"
+          >
+            <img class="img-fluid" src="img/login.png" alt="" />
+          </div>
+          <!--texto INICIO SESION-->
+          <div class="alert alert-light text-center" role="alert">
+            INICIO DE SESIÓN
+          </div>
+          <form action="procesar-login.php" method="post">
+            <div class="mb-3">
+              <label
+                for="correo"
+                class="form-label"
+                style="
+                  background-color: gainsboro;
+                  display: block;
+                  padding: 10px;
+                  border: 1px solid gray;
+                "
+                >CORREO:</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="correo"
+                name="correo"
+                placeholder="name@example.com"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label
+                for="clave"
+                class="form-label"
+                style="
+                  background-color: gainsboro;
+                  display: block;
+                  padding: 10px;
+                  border: 1px solid gray;
+                "
+                >CONTRASEÑA:</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="clave"
+                name="clave"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary w-100 mb-1">
+              ACCEDER
+            </button>
+          </form>
+        </div>
+      </div>
+      <!--fila para el realidad por-->
+      <div class="row mb-1">
+        <div class="col-12">
+          <div class="alert alert-warning" role="alert">
+            REALIZADO POR: MARCELO HERVÁS
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
